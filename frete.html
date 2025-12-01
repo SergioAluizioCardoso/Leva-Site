@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Frete</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+
+     
+  
+  
+
+</head>
+<body>
+    <header>
+        <nav>
+        <a href="index.html">
+            <img id="logoSite" src="img/LogoLeva.png" alt="Logotipo Leva" /></a>
+            <a href="frete.html">Cotar seu Frete</a>
+            <a href="sobre.html">Quem Somos</a>
+            <a href="contato.html">Contato</a>
+            <a href="FaceBook.html"><img class="iconeSup" src="img\iconeFB.png"alt="FB"></a>
+            <a href="Instagram.html"><img class="iconeSup" src="img\iconeInstagram.jpg" alt="Instagram"></a>
+            <a href="WhatsApp.html"><img class="iconeSup" src="img\logoWHATSAPP.jpg" alt="Wapp"></a>
+        </nav>
+       
+    </header> 
+    <img src="img/Pista3.jpg" alt="Pista3" />
+
+    <div class="container">
+         
+       <h3><b>Cotação de Frete</b></h3>
+       <form> 
+       <div class="Dados">
+            <div>
+                <label for="cepOrigem">Cep de Origem</label> <br>
+                <input type="number" id="cepOrigem" class="bot" name="cepOrigem">
+            </div>
+            <div>
+                <label for="cepDestino">Cep de Destino</label> <br>
+                <input type="number" id="cepDestino" class="bot" name="cepDestino">
+            </div>   
+        </div>
+        <div class="Dados">
+            <div>
+                <label for="peso">Peso Total (Kg)</label> <br>
+                <input type="number" id="peso" class="bot" name="peso">
+            </div>
+            <div>
+                <label for="volume">Volume Total (m3)</label> <br>
+                <input type="number" id="volume" class="bot"  name="volume">
+            </div>
+                
+        </div>
+        </form>
+        <br><hr><br>
+        <button onclick="CalcularFrete();" class="botCalc" >Calcular Frete</button>
+        <form>
+        <div class="Dados">
+            <div>
+                <label for="valor">Valor em R$</label> <br>
+                <input type="number" id="valor" class="bot" name="valor">
+            </div>
+            <div>
+                <br>
+                <label for="prazo">Prazo (dias úteis)</label> <br>
+                <input type="number" id="prazo" class="bot" name="prazo">
+            </div>
+        </div>
+        </form>  
+        <br><br>
+      
+    </div>
+
+    <footer>
+        <div class="foot">
+            <div class="contato">
+                <div class="foot">
+                    <p>Nosso Endereço</p> 
+                    <img class="icone" src="img/Local sem fundo.png" alt="Localizador">
+                </div>
+                <p>BR255 Km263 Barra Bonita/SP</p>
+
+            </div>
+            <div class="contato">
+                <p>  Redes Sociais</p>
+                <a href="faceBook.html"> <img class="icone" src="img\iconeFB.png" alt="FB">  </a>
+                <a href="instagram.html">  <img class="icone" src="img\iconeInstagram.jpg" alt="Instagram"> </a>
+
+            </div>
+            <div class="contato">
+                <p>Telefone:</p>
+                <p>(14) 3444-9999</p>
+
+            </div>
+            <div class="contato">
+              <a href="polPriv.html">
+                <p>Política de Privacidade</p>
+                <img class="PolPriva" src="img\iconePolPrivacidade.png" alt="Pol Privacidade">
+              </a>
+
+            </div>
+        </div>
+                
+    </footer>    
+
+</body>
+<script src="js/scripts.js"></script>
+</html>

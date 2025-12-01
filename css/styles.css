@@ -1,0 +1,295 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #e7e9eb;
+}
+
+header {
+    height: 20hv;
+    margin-top: 0px;
+    background-color: #e7e9eb;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logoSite {
+    height: 90px;
+    padding: 20px 20px 0px 20px;
+}
+
+nav {
+    justify-content: space-between;
+    align-self: flex-end;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-right: 80px;
+}
+
+nav a {
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    padding: 48px;
+    align-self: flex-end;
+    justify-content: space-between;
+    font-family:   Arial, sans-serif ;
+    font-size: 22px;
+}
+
+nav a:hover {
+    color: #e6870b;
+}
+
+.container {
+    background-color: #e7e9eb;
+    text-align: center;
+    max-width: 1900px;
+    margin: 0px;
+    padding: 10px 100px;
+}
+
+.foot {
+    background-color: #e7e9eb;
+    display: flex;
+    height: 20hv;
+    justify-content: space-between;
+    margin: auto ;
+    color: rgb(7, 7, 7);
+    font-size: 14px;
+}
+
+
+
+.contato {
+    color: rgb(7, 7, 7);
+    font-size: 14px;
+    font-family:   Arial, sans-serif ;
+    height: 100px;
+    margin: 10px;
+    padding: 0px;
+}
+
+.PolPriva {
+    height: 38px;
+    margin: 0px;
+    padding: 0px 0px 0px 46px;
+}
+
+.iconeSup {
+    height: 32px;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.icone {
+    height: 38px;
+    margin: 0px;
+    padding: 6px;
+}
+
+h3 {
+  text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.Dados {
+    display: flex;
+    font-family:   Arial, sans-serif ;
+    justify-content: space-between;
+    margin: 0px 300px 10px 300px;
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+}
+
+.bot {
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.botCalc {
+    font-family:   Arial, sans-serif ;
+    font-size: 18px;
+    width: 200px; 
+    height: 36px;
+    border-radius: 5px;
+    border-style: solid;
+    color: rgb(7, 7, 7);
+    background-color: rgb(143, 236, 143);
+}
+.botCalc:hover {
+    background-color: rgb(43, 129, 43);
+    color: #e6870b;
+}
+
+/* Começa parte slide show */
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Termina parte slideshow */
+
+.textolongo{
+  font-family:   Arial, sans-serif ;
+  height: 220px;
+  color: rgb(7, 7, 7);
+  font-size: 20px;
+  text-align: center;
+}
+
+.localiza {
+  padding: 10px;
+}
+
+.blocoContatos {
+  display: flex;
+  font-family:   Arial, sans-serif ;
+  justify-content: space-between;
+  margin: 0px 250px 20px 250px;
+  color: rgb(7, 7, 7);
+  font-size: 18px;
+  height: 550px;
+ 
+  background-color: #e7e9eb;
+  max-width: 1400px;
+  position: relative;
+  margin: auto;
+}
+
+.dados-contato {
+  margin: 20px;
+  padding: 20px;
+}
+
+.meios {
+
+  padding: 200px;
+}
+
+#frm-contato {
+    display:flex;
+    flex-direction:column;
+}
+
+textarea {
+    resize: none;
+}
+
+#frm-contato input, textarea {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 17px;
+    padding: 5px 10px;
+    margin: 5px 0px;
+    border-radius: 10px;
+    border: solid 1px lightslategray;
+}
+
+button {
+    font-size: 18px;
+    padding: 4px 40px;
+    margin: 15px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+#btn-enviar {
+    background-color: #37b400;
+    color:white;
+}
+
+#btn-cancelar {
+    background-color: #555;
+    color:#000000;
+}
+
+
+
+  
+  
